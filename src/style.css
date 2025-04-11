@@ -1,0 +1,31 @@
+/* Fondo general del sitio */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #E4E5F5;
+  font-family: system-ui, sans-serif;
+}
+
+/* El contenedor principal no debe tener max-width por defecto */
+.container {
+  max-width: 100% !important;
+}
+
+/* Elementos de lista de nombres */
+.nombre-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.nombre-item::before {
+  content: "□";
+  font-size: 1rem;
+  margin-right: 0.5rem;
+  color: #333;
+}
+
+.nombre-item:hover::before {
+  content: "☑";
+  color: #007bff;
+}

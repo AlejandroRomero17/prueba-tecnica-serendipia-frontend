@@ -1,0 +1,51 @@
+nombre,segundoNombre,primerApellido,segundoApellido,edad,sexo,ocupacion,nivelDeEstudios,propuesta
+Diana,,Flores,Reyes,27,Femenino,Doctora,Primaria,PJ
+Alejandro,,Rivera,Reyes,18,Masculino,Contador,Doctorado,PJ
+Carlos,,Vargas,Mendoza,41,Masculino,Administrador,Secundaria ,PJ
+Víctor,,López,Hernández,45,Masculino,Contador,Maestría,PL
+Raúl,Patricia,Cruz,Morales,46,Masculino,Doctor,Maestría,PL
+Marisol,,Díaz,Gómez,31,Femenino,Desarrolladora,Preparatoria,EF
+Julia,,Cruz,Hernández,29,Femenino,Estudiante,Secundaria,EF
+José,,Rodríguez,Gómez,40,Masculino,Administrador,Preparatoria,EF
+Carlos,,Hernández,Hernández,41,Masculino,Diseñador,Primaria,EF
+Brenda,,Pérez,Sánchez,34,Femenino,Desarrolladora,Primaria,PE
+José,,Jiménez,Hernández,39,Masculino,Abogado,Preparatoria,PJ
+Iván,,Díaz,Sánchez,54,Masculino,Doctor,Preparatoria,PE
+Pablo,,Vargas,Silva,36,Masculino,Estudiante,Carrera técnica,PJ
+Manuel,José,Pérez,Reyes,46,Masculino,Diseñador,Carrera técnica,PE
+Jorge,,Ramos,Gómez,56,Masculino,Desarrollador,Secundaria,EF
+Fernanda,,Rivera,Morales,30,Femenino,Ingeniera,Doctorado,EF
+Fernanda,Javier,García,Gómez,33,Femenino,Administradora,Licenciatura,PJ
+Eduardo,,Rodríguez,Gómez,36,Masculino,Psicólogo,Maestría,PL
+Víctor,,García,Reyes,23,Masculino,Administrador,Preparatoria,PE
+Adriana,,Díaz,Gómez,19,Femenino,Administradora,Preparatoria,PJ
+Andrea,,Rivera,Morales,59,Femenino,Contadora,Secundaria,PL
+Elsa,,Rivera,Mendoza,31,Femenino,Administradora,Doctorado,PE
+Óscar,Patricia,Cruz,Gómez,59,Masculino,Administrador,Secundaria,EF
+Gabriela,Javier,Flores,Sánchez,55,Femenino,Diseñadora,Primaria,EF
+Hugo,,Jiménez,Reyes,34,Masculino,Doctor,Licenciatura,PJ
+Óscar,,Ramírez,Mendoza,60,Masculino,Ingeniero,Carrera técnica,PE
+Daniel,,Rivera,Mendoza,58,Masculino,Administrador,Maestría,EF
+Emilio,,Ramos,Torres,22,Masculino,Diseñador,Primaria,PE
+Renata,Andrés,Flores,Hernández,36,Femenino,Diseñadora,Licenciatura,EF
+Laura,,Hernández,Mendoza,33,Femenino,Profesora,Licenciatura,EF
+Paola,,Sánchez,Mendoza,31,Femenino,Diseñadora,Maestría,PJ
+Arturo,Andrés,Ramírez,Sánchez,37,Masculino,Doctor,Preparatoria,PJ
+Óscar,Javier,Ramos,Silva,28,Masculino,Administrador,Licenciatura,PL
+Gabriela,Patricia,López,Gómez,31,Femenino,Psicóloga,Carrera técnica,EF
+Hugo,,Flores,Reyes,40,Masculino,Desarrollador,Primaria,PL
+Alejandro,,Rivera,Hernández,41,Masculino,Desarrollador,Carrera técnica,PE
+Lucía,,Ramírez,Gómez,65,Femenino,Contadora,Carrera técnica,PL
+Marisol,Patricia,García,Castillo,54,Femenino,Abogada,Preparatoria,PL
+Emilio,,Jiménez,Reyes,26,Masculino,Ingeniero,Primaria,EF
+Paola,José,Flores,Castillo,35,Femenino,Abogada,Preparatoria,PL
+Renata,Patricia,Rodríguez,Torres,44,Femenino,Ingeniera,Preparatoria,PL
+Manuel,Patricia,García,Reyes,49,Masculino,Desarrollador,Preparatoria,EF
+Camila,,Cruz,Mendoza,52,Femenino,Administradora,Primaria,PE
+Adriana,,Vargas,Morales,65,Femenino,Psicóloga,Carrera técnica,PJ
+Natalia,José,Rodríguez,Gómez,19,Femenino,Diseñadora,Licenciatura,PE
+Fátima,,Sánchez,Castillo,56,Femenino,Contadora,Preparatoria,PE
+Lorena,Antonio,Morales,Morales,44,Femenino,Estudiante,Carrera técnica,PL
+Natalia,,Cruz,Sánchez,60,Femenino,Diseñadora,Doctorado,EF
+Diana,Andrés,García,Silva,65,Femenino,Estudiante,Maestría,EF
+Luis,Antonio,González,Torres,63,Masculino,Administrador,Carrera técnica,PL
