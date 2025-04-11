@@ -62,14 +62,26 @@ export function renderizarListaDePersonas(
     columna.appendChild(encabezado);
 
     const cajas = document.createElement("div");
-    cajas.classList.add("d-flex", "justify-content-between", "mb-3");
+    cajas.classList.add("d-flex", "justify-content-center", "mb-3");
+    cajas.style.gap = "6px";
+
     for (let i = 0; i < 5; i++) {
       const entrada = document.createElement("input");
       entrada.type = "text";
-      entrada.classList.add("form-control", "text-center");
-      entrada.style.width = "18%";
+      entrada.classList.add(
+        "form-control",
+        "text-center",
+        "border-2",
+        "rounded"
+      );
+      entrada.style.width = "58px";
+      entrada.style.height = "58px";
+      entrada.style.borderColor = "#EE028C";
+      entrada.style.fontWeight = "bold";
+      entrada.style.fontSize = "1.1rem";
       cajas.appendChild(entrada);
     }
+
     columna.appendChild(cajas);
 
     const contenedorLista = document.createElement("div");
@@ -183,8 +195,9 @@ export function renderizarListaDePersonas(
   leyendaContenedor.classList.add(
     "col-md-2",
     "d-flex",
-    "align-items-center",
-    "justify-content-center"
+    "align-items-start",
+    "justify-content-center",
+    "mt-4"
   );
 
   const leyenda = document.createElement("div");
@@ -192,12 +205,29 @@ export function renderizarListaDePersonas(
   leyenda.style.backgroundColor = "#EE028C";
   leyenda.style.color = "white";
   leyenda.innerHTML = `
-    <div class="fw-bold mb-2">PROPUESTAS</div>
-    <span><strong style="color:#EE028C">PE</strong> <span style="color:#000">PODER EJECUTIVO</span></span><br>
-    <span><strong style="color:#EE028C">PL</strong> <span style="color:#000">PODER LEGISLATIVO</span></span><br>
-    <span><strong style="color:#EE028C">PJ</strong> <span style="color:#000">PODER JUDICIAL</span></span><br>
-    <span><strong style="color:#EE028C">EF</strong> <span style="color:#000">MINISTRAS Y MINISTROS EN FUNCIONES</span></span>
+  <div class="fw-bold mb-2 text-white py-1 px-2 rounded text-center" style="background-color:#EE028C;">
+    PROPUESTAS
+  </div>
+  <div class="border border-2 rounded p-2" style="border-color:#EE028C; background-color:#FFFFFF;">
+    <div class="d-flex align-items-start mb-1">
+      <span class="fw-bold me-2 text-nowrap" style="color:#EE028C; min-width: 2.5rem;">PE</span>
+      <span style="color:#000; flex: 1;">PODER EJECUTIVO</span>
+    </div>
+    <div class="d-flex align-items-start mb-1">
+      <span class="fw-bold me-2 text-nowrap" style="color:#EE028C; min-width: 2.5rem;">PL</span>
+      <span style="color:#000; flex: 1;">PODER LEGISLATIVO</span>
+    </div>
+    <div class="d-flex align-items-start mb-1">
+      <span class="fw-bold me-2 text-nowrap" style="color:#EE028C; min-width: 2.5rem;">PJ</span>
+      <span style="color:#000; flex: 1;">PODER JUDICIAL</span>
+    </div>
+    <div class="d-flex align-items-start">
+      <span class="fw-bold me-2 text-nowrap" style="color:#EE028C; min-width: 2.5rem;">EF</span>
+      <span style="color:#000; flex: 1;">MINISTRAS Y MINISTROS EN FUNCIONES</span>
+    </div>
+  </div>
   `;
+
   leyendaContenedor.appendChild(leyenda);
 
   cuerpo.appendChild(leyendaContenedor);
